@@ -25,5 +25,7 @@ for powershell
 Install requirements 🛠
 `$ pip install -r requirements.txt`
 
-Run project
-`python .\app.py`
+Run project for powershell
+`python .\app.py` 
+
+for 
