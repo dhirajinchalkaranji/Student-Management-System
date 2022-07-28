@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Documents</title>
+    <title>Dashboard</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -118,11 +118,11 @@
 
       <nav class="header-nav ms-auto">
         <ul class="d-flex align-items-center">
-          <li class="nav-item d-block d-lg-none">
+          <!-- <li class="nav-item d-block d-lg-none">
             <a class="nav-link nav-icon search-bar-toggle" href="#">
               <i class="bi bi-search"></i>
             </a>
-          </li>
+          </li> -->
           <!-- End Search Icon-->
 
           <li class="nav-item dropdown">
@@ -339,28 +339,7 @@
                 <hr class="dropdown-divider" />
               </li>
 
-              <!-- <li>
-                <a
-                  class="dropdown-item d-flex align-items-center"
-                  href="{{url_for('profile')}}.html"
-                >
-                  <i class="bi bi-gear"></i>
-                  <span>Account Settings</span>
-                </a>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-
-              <li>
-                <a
-                  class="dropdown-item d-flex align-items-center"
-                  href="pages-faq.html"
-                >
-                  <i class="bi bi-question-circle"></i>
-                  <span>Need Help?</span>
-                </a>
-              </li> -->
+            
               <li>
                 <hr class="dropdown-divider" />
               </li>
@@ -629,9 +608,7 @@
             <li class="breadcrumb-item">
               <a href="{{url_for('dashboard')}}">Home</a>
             </li>
-            <li class="breadcrumb-item active">
-              <a href="{{url_for('documents')}}">Documents</a>
-            </li>
+            <li class="breadcrumb-item active">Dashboard</li>
           </ol>
         </nav>
       </div>
@@ -659,7 +636,7 @@
                     </ul> -->
                 </div>
 
-                <a href="/bonafide">
+                <a href="/studentRegister">
                   <div class="card-body">
                     <h5 class="card-title"><span></span></h5>
 
@@ -667,11 +644,11 @@
                       <div
                         class="card-icon rounded-circle d-flex align-items-center justify-content-center"
                       >
-                        <i class="bi bi-file-earmark-pdf-fill"></i>
+                        <i class="bi bi-person-plus-fill"></i>
                       </div>
 
                       <div class="ps-3">
-                        <h6>Bonafide</h6>
+                        <h6>Register a Student</h6>
                         <!-- <span class="text-success small pt-1 fw-bold">12%</span> -->
                         <!-- <span class="text-muted small pt-2 ps-1">increase</span> -->
                       </div>
@@ -698,7 +675,7 @@
                     </ul> -->
                 </div>
 
-                <a href="/studyCertificate">
+                <a href="/documents">
                   <div class="card-body">
                     <h5 class="card-title"><span></span></h5>
   
@@ -709,7 +686,7 @@
                         <i class="bi bi-file-earmark-pdf-fill"></i>
                       </div>
                       <div class="ps-3">
-                        <h6>Study Certificate</h6>
+                        <h6>Documents</h6>
                         <!-- <span class="text-success small pt-1 fw-bold"></span> -->
                         <!-- <span class="text-muted small pt-2 ps-1"></span> -->
                       </div>
@@ -740,22 +717,24 @@
                     </ul> -->
                 </div>
 
-                <div class="card-body">
-                  <h5 class="card-title"><span></span></h5>
-
-                  <div class="d-flex align-items-center">
-                    <div
-                      class="card-icon rounded-circle d-flex align-items-center justify-content-center"
-                    >
-                      <i class="bi bi bi-file-earmark-pdf-fill"></i>
-                    </div>
-                    <div class="ps-3">
-                      <h6>Document X</h6>
-                      <!-- <span class="text-success small pt-1 fw-bold"></span> -->
-                      <!-- <span class="text-muted small pt-2 ps-1"></span> -->
+                <a href="/aboutCollege">
+                  <div class="card-body">
+                    <h5 class="card-title"><span></span></h5>
+  
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="bi bi-building"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>About College</h6>
+                        <!-- <span class="text-success small pt-1 fw-bold"></span> -->
+                        <!-- <span class="text-muted small pt-2 ps-1"></span> -->
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <!-- End Revenue Card -->
@@ -785,10 +764,10 @@
                     <div
                       class="card-icon rounded-circle d-flex align-items-center justify-content-center"
                     >
-                      <i class="bi bi bi-file-earmark-pdf-fill"></i>
+                      <i class="bi bi-info-circle-fill"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>Document Y</h6>
+                      <h6>App info</h6>
                       <!-- <span class="text-success small pt-1 fw-bold"></span> -->
                       <!-- <span class="text-muted small pt-2 ps-1"></span> -->
                     </div>
